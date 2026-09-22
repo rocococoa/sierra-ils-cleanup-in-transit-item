@@ -7,6 +7,13 @@
 
 **Impact:** Optimizes database management within the Sierra ILS by scheduling and automating a cleanup task, previously a manual process. The resulting automated report supports accuracy of the collection inventory.
 
+## Features and Deliverables
+
+**Automated Email:**
+
+<img width="968" height="554" alt="Weekly In Transit Email" src="https://github.com/user-attachments/assets/04837bcb-e3dc-4caf-83de-be1a570c5830" />
+
+
 ## Data Pipeline Architecture
 This repository features an automated data pipeline that generates, formats, and distributes Excel reports via email. The system integrates Windows Task Scheduler, a Batch script, SQL, and Python to handle the end-to-end workflow without manual intervention. The automated process is fully productionized within a Windows environment.
 
